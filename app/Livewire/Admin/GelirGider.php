@@ -145,6 +145,8 @@ class GelirGider extends Component
             'is_recurring'        => $this->expIsRecurring,
             'recurring_period'    => $this->expIsRecurring ? $this->expRecurringPeriod : null,
             'note'                => $this->expNote ?: null,
+			'category'            => 'diger',
+
         ];
 
         if ($this->editingExpenseId) {
