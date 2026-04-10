@@ -50,6 +50,7 @@ class Hizmetler extends Component
             'description' => $this->description ?: null,
             'price'       => (float) $this->price,
             'is_active'   => $this->is_active,
+            'duration'    => 0,
         ];
 
         $this->editingId
